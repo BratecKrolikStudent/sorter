@@ -23,6 +23,7 @@ class Sorter {
   }
 
   sort(indices) {
+    indices.sort();
     let arr = []
     for (let i = 0; i < indices.length; i++) {
       arr.push(this.storage[indices[i]]);
